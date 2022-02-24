@@ -24,6 +24,7 @@ body {
 .hero-text {
     font-size: 3rem;
     margin-top: 15%;
+    text-align: center;
 }
 
 
@@ -53,6 +54,7 @@ a {
 
 .about-me {
     padding: 3rem;
+    text-align: center;
 }
 .about-me h2{
     font-size: 3rem;
@@ -152,6 +154,17 @@ a {
 }
 
 
-@media (max-width: 700px) {
-    
+@media (max-width: 400px) {
+    nav ul li{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .about-me p {
+        font-size: 1rem; 
+    }
+
+    .project p {
+        font-size: .8rem;
+    }
 }
